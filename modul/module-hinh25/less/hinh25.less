@@ -1,4 +1,4 @@
-@title: {
+.title-top() {
     color: #555555;
     line-height: 1.05;
     letter-spacing: .05em;  
@@ -8,7 +8,7 @@
     margin-bottom: .5em;
     text-rendering: optimizeSpeed;
 }
-@a: {
+.a-none() {
     text-decoration: none;
     touch-action: manipulation;
     background-color: transparent;
@@ -16,6 +16,7 @@
 @color-446084 :#446084;
 @color-334862 : #334862;
 .type-25 {
+    margin: 2%;
     font-weight: 400;
     font-family: "Lato", sans-serif;
     font-size: 100%;
@@ -42,7 +43,7 @@
                         font-size: .7em;
                     }
                     h6  {
-                        @title:{};
+                        .title-top();
                         text-transform: uppercase;
                         a {
                             color: @color-334862;
@@ -56,10 +57,10 @@
                         }  
                     }
                     h2 {
-                        @title:{};
+                        .title-top();
                         a {
                             color: @color-334862;
-                            @a:{};
+                            .a-none();
                         }
                         a.plain {
                             color: currentColor;
@@ -80,7 +81,7 @@
                         letter-spacing: .05em;
                         a {
                             color: @color-334862;
-                            @a: {};
+                            .a-none();
                         }
                     }
                 }
@@ -95,7 +96,7 @@
                     position: relative !important;
                     a {
                         color: @color-334862;
-                        @a: {};
+                        .a-none();
                     }
                 }
                 .entry-image {
@@ -196,7 +197,7 @@
                             cursor: pointer;
                             font-weight: bolder;
                             text-align: center;
-                            @a:{};
+                            .a-none();
                             touch-action: none;
                             vertical-align: middle;
                             border-radius: 0;
@@ -221,7 +222,7 @@
                 display: block;
                 a {
                     color: @color-334862;
-                    @a: {};
+                    .a-none();
                 }
             }
         }
@@ -268,7 +269,7 @@
             border: 2px solid currentColor;
             transition: all .3s;
             vertical-align: top;
-            @a: {};
+            .a-none();
         }
     }
 }

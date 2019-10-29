@@ -1,4 +1,5 @@
 .type-25 {
+  margin: 2%;
   font-weight: 400;
   font-family: "Lato", sans-serif;
   font-size: 100%;
@@ -30,6 +31,14 @@
   font-size: .7em;
 }
 .type-25 .post .article-inner header .entry-header-text h6 {
+  color: #555555;
+  line-height: 1.05;
+  letter-spacing: .05em;
+  opacity: .8;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: .5em;
+  text-rendering: optimizeSpeed;
   text-transform: uppercase;
 }
 .type-25 .post .article-inner header .entry-header-text h6 a {
@@ -42,8 +51,21 @@
   color: currentColor;
   transition: color .3s, opacity .3s, transform .3s;
 }
+.type-25 .post .article-inner header .entry-header-text h2 {
+  color: #555555;
+  line-height: 1.05;
+  letter-spacing: .05em;
+  opacity: .8;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: .5em;
+  text-rendering: optimizeSpeed;
+}
 .type-25 .post .article-inner header .entry-header-text h2 a {
   color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
 }
 .type-25 .post .article-inner header .entry-header-text h2 a.plain {
   color: currentColor;
@@ -64,6 +86,9 @@
 }
 .type-25 .post .article-inner header .entry-header-text .uppercase a {
   color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
 }
 .type-25 .post .article-inner header .text-center {
   text-align: center;
@@ -78,6 +103,9 @@
 }
 .type-25 .post .article-inner header .relative a {
   color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
 }
 .type-25 .post .article-inner header .entry-image img {
   width: 100%;
@@ -175,6 +203,9 @@
   cursor: pointer;
   font-weight: bolder;
   text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
   touch-action: none;
   vertical-align: middle;
   border-radius: 0;
@@ -197,6 +228,9 @@
 }
 .type-25 .post .article-inner footer a {
   color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
 }
 .type-25 article {
   display: block;
@@ -241,4 +275,7 @@
   border: 2px solid currentColor;
   transition: all .3s;
   vertical-align: top;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
 }
