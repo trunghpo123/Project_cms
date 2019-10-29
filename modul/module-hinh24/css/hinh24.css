@@ -1,0 +1,234 @@
+.type-24 {
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  color: #777777;
+  padding: 10px;
+}
+.type-24 .post {
+  font-family: "Lato", sans-serif;
+  margin: 0 0 30px;
+}
+.type-24 .post .article-inner {
+  transition: opacity .3s, box-shadow .5s, transform .3s;
+}
+.type-24 .post .article-inner header {
+  display: block;
+}
+.type-24 .post .article-inner header .entry-header-text.text-center {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.type-24 .post .article-inner header .entry-header-text-top {
+  padding-top: 0;
+}
+.type-24 .post .article-inner header .entry-header-text {
+  padding: 1.5em 0 1.5em;
+}
+.type-24 .post .article-inner header .entry-header-text .is-xsmall {
+  font-size: .7em;
+}
+.type-24 .post .article-inner header .entry-header-text h6 {
+  color: #555555;
+  line-height: 1.05;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  opacity: .8;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: .5em;
+  text-rendering: optimizeSpeed;
+}
+.type-24 .post .article-inner header .entry-header-text h6 a {
+  color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.type-24 .post .article-inner header .entry-header-text h6 a.plain {
+  color: currentColor;
+  transition: color .3s, opacity .3s, transform .3s;
+}
+.type-24 .post .article-inner header .entry-header-text h2 {
+  color: #555555;
+  line-height: 1.05;
+  letter-spacing: .05em;
+  opacity: .8;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: .5em;
+  text-rendering: optimizeSpeed;
+}
+.type-24 .post .article-inner header .entry-header-text h2 a {
+  color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.type-24 .post .article-inner header .entry-header-text h2 a.plain {
+  color: currentColor;
+  transition: color .3s, opacity .3s, transform .3s;
+}
+.type-24 .post .article-inner header .entry-header-text .is-divider {
+  height: 3px;
+  display: block;
+  background-color: #e5e5e4;
+  margin: 1em 0 1em;
+  width: 100%;
+  max-width: 30px;
+}
+.type-24 .post .article-inner header .entry-header-text .uppercase {
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.type-24 .post .article-inner header .entry-header-text .uppercase a {
+  color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.type-24 .post .article-inner header .text-center {
+  text-align: center;
+}
+.type-24 .post .article-inner header .text-center .is-divider,
+.type-24 .post .article-inner header .text-center > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-24 .post .article-inner header .relative {
+  position: relative !important;
+}
+.type-24 .post .article-inner header .relative a {
+  color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.type-24 .post .article-inner header .entry-image img {
+  width: 100%;
+  transition: opacity 1s;
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: none;
+}
+.type-24 .post .article-inner header .entry-image .badge.post-date {
+  top: 7%;
+}
+.type-24 .post .article-inner header .entry-image .badge.top {
+  left: 0;
+}
+.type-24 .post .article-inner header .entry-image .top {
+  top: 0;
+}
+.type-24 .post .article-inner header .entry-image .absolute {
+  position: absolute !important;
+}
+.type-24 .post .article-inner header .entry-image .badge-outline {
+  margin-left: -0.4em;
+  color: #446084;
+  background-color: #fff;
+  border: 2px solid currentColor;
+  border-radius: 0%;
+}
+.type-24 .post .article-inner header .entry-image .badge-outline .badge-inner {
+  color: #446084;
+  background-color: #fff;
+}
+.type-24 .post .article-inner header .entry-image .badge {
+  display: table;
+  z-index: 20;
+  pointer-events: none;
+  height: 3.8em;
+  width: 3.8em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.type-24 .post .article-inner header .entry-image .badge .badge-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: .85;
+  font-weight: bolder;
+  padding: 2px;
+  white-space: nowrap;
+  transition: background-color .3s, color .3s, border .3s;
+}
+.type-24 .post .article-inner .entry-content {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.type-24 .post .article-inner .entry-content .entry-summary p {
+  margin-top: 0;
+}
+.type-24 .post .article-inner .entry-content .entry-summary p:last-of-type {
+  margin-bottom: 0;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center {
+  text-align: center;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .button:last-of-type {
+  margin-right: 0 !important;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .button:first-of-type {
+  margin-left: 0 !important;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .primary.is-outline {
+  color: #446084;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .button.is-outline {
+  border: 2px solid currentColor;
+  background-color: transparent;
+  line-height: 2.19em;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .more-link {
+  margin-top: 1.5em;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .is-smaller {
+  font-size: .75em;
+}
+.type-24 .post .article-inner .entry-content .entry-summary .text-center .button {
+  margin-bottom: 1em;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  touch-action: none;
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 0;
+  text-shadow: none;
+  min-height: 2.5em;
+  padding: 0 1.2em;
+  max-width: 100%;
+  transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+.type-24 .post .article-inner footer.entry-meta {
+  font-size: .8em;
+  border-top: 1px solid #ececec;
+  border-bottom: 2px solid #ececec;
+  padding: .5em 0 .6em;
+}
+.type-24 .post .article-inner footer {
+  display: block;
+}
+.type-24 .post .article-inner footer a {
+  color: #334862;
+  text-decoration: none;
+  touch-action: manipulation;
+  background-color: transparent;
+}
+.type-24 article {
+  display: block;
+}
