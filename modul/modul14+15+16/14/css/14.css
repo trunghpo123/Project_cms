@@ -1,0 +1,143 @@
+.type-14 .container {
+  width: 1050px;
+  margin: 0px auto;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+.type-14 .clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.type-14 .clearfix {
+  clear: both;
+  display: block;
+}
+.type-14 * {
+  box-sizing: border-box;
+}
+.type-14 .banner-inner {
+  position: relative;
+}
+.type-14 .text-inner {
+  position: absolute;
+  text-align: center;
+  margin-left: 26%;
+  margin-right: 50px 140px 50px 140px;
+  font-size: 16px;
+  bottom: 30%;
+  color: #f1f1f1;
+  width: 648px;
+  height: 175px;
+}
+.type-14 .banner {
+  position: relative;
+  background-image: url(../images/banner.jpeg);
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+}
+.type-14 .overlay {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 470px;
+  left: -1px;
+  right: -1px;
+}
+.type-14 .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.type-14 .text-inner h1 {
+  color: #fff;
+  padding: 0;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 50px;
+  text-align: center;
+  margin: 11px 0px;
+}
+.type-14 .text-inner p {
+  font-size: 23px;
+  margin: 21px 0px;
+  font-weight: normal;
+  color: #f1f1f1;
+}
+.type-14 .text {
+  font-size: 20px;
+  text-align: center;
+  color: #777777;
+  margin-top: 30px;
+}
+.type-14 .is-divider {
+  height: 3px;
+  display: block;
+  background-color: grey;
+  max-width: 30px;
+  margin-left: 495px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.type-14 .col-inner {
+  width: 240px;
+  height: 393px;
+}
+.type-14 .box-image {
+  text-align: center;
+}
+.type-14 .box-image img {
+  width: 192px;
+  height: 192px;
+  border-radius: 100%;
+}
+.type-14 .box-text {
+  text-align: center;
+}
+.type-14 .social-icons i {
+  font-size: 17px;
+  padding-bottom: 13px;
+  color: silver;
+}
+.type-14 .social-icons p {
+  text-align: center;
+  font-size: 15px;
+  color: #777777;
+}
+.type-14 .uppercase {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.type-14 .uppercase .person-title {
+  font-size: 15px;
+  font-weight: 300 !important;
+  line-height: 1.5;
+}
+.type-14 .row {
+  text-align: center;
+}
+.type-14 a>i {
+  width: 15px;
+  height: 17px;
+}
+.type-14 a:hover {
+  background: #3a589d;
+}
+.type-14 a>i:hover {
+  color: #fff;
+}
+.type-14 a {
+  border: 2px solid silver;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 100%;
+}
+.type-14 .icon-inner {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
