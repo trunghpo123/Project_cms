@@ -15,6 +15,7 @@
 }
 @color-446084 :#446084;
 @color-334862 : #334862;
+@color-white:#fff;
 .type-25 {
     margin: 2%;
     font-weight: 400;
@@ -125,12 +126,12 @@
                     .badge-outline {
                         margin-left: -.4em;
                         color: @color-446084;
-                        background-color: #fff;
+                        background-color: @color-white;
                         border: 2px solid currentColor;
                         border-radius: 0%;
                         & .badge-inner {
                             color: @color-446084;
-                            background-color: #fff;
+                            background-color: @color-white;
                         }
                     }
                     .badge {
@@ -253,7 +254,7 @@
         &>.current, &>.span:hover, &>a:hover {
             border-color: @color-446084;
             background-color: @color-446084;
-            color: #fff;
+            color: @color-white;
         }
         &>span, &>a {
             font-size: 1.1em;
