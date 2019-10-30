@@ -23,10 +23,12 @@ $less->compileFile('less/6.less', 'css/6.css');
         <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
-        <script src="./js/jquery-2.1.4.min.js"></script>
+        <script src="./js/jquery-2.1.4.min.js"></script>   
         <script src="js/6.js" type="text/javascript"></script>
-        <script src="./js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="./js/bootstrap.min.js"></script>     
         <script src="./js/swiper.min.js" type="text/javascript"></script>
+        <script src="js/6.js" type="text/javascript"></script>  
         <link rel="stylesheet" href="./css/6.css">
     </head>
     <body>

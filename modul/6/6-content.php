@@ -28,12 +28,10 @@
                                     <h5> Wellcome to my</h5>
                                 </div>
                                 <div class="borders">
-
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    
-                                    Welcome to WordPress. This is your first post. Edit or delete it, then start blogging! [...]					
+                                        Welcome to WordPress. This is your first post. Edit or delete it, then start blogging! [...]					
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -41,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/2.jpg"  class="img-responsive" alt="">
@@ -63,7 +61,7 @@
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]						
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]						
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -71,7 +69,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/3.jpg" class="img-responsive" alt="">
@@ -89,11 +87,10 @@
                                     <h5>A Simple Blog Post</h5>
                                 </div>
                                 <div class="borders">
-
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut [...]										
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut [...]										
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -101,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/4.jpg" class="img-responsive" alt="">
@@ -122,11 +119,10 @@
                                     <h5>A Video Blog Post</h5>
                                 </div>
                                 <div class="borders">
-
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]									
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]									
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -134,7 +130,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/5.jpg"  class="img-responsive" alt="">
@@ -156,7 +152,7 @@
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]										
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]										
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -164,7 +160,7 @@
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/6.jpg" w class="img-responsive" alt="">
@@ -182,11 +178,10 @@
                                     <h5>Another post with A Gallery</h5>
                                 </div>
                                 <div class="borders">
-
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]					
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa. Fusce ante magna, [...]					
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -212,19 +207,17 @@
                                     <h5>New Client Landed</h5>
                                 </div>
                                 <div class="borders">
-
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut [...]									
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut [...]									
                                     </span>
                                 </div>
                                 <div class="product-title"> 
-                                                      
                                 </div>
                             </div>
                         </div>
-                          <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="product-item">
                                 <div class="product-image">
                                     <a href="#"><img  src="./images/8.jpg" class="img-responsive" alt="">
@@ -246,7 +239,7 @@
                                 </div>
                                 <div class="product-price">
                                     <span>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]					
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed eleifend risus, sit amet porttitor [...]					
                                     </span>
                                 </div>
                                 <div class="product-title"> 
@@ -254,47 +247,16 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
-                     <div class="btn">
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev" ></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="btn">
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev" ></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
-                </div>
-                </div>
-               
-            
+            </div> 
         </div>
     </div>
 </div>
-<script>
 
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 50,
-        slidesPerView: 6,
-        slidesPerGroup: 2,
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window width is >= 480px
-            720: {
-                slidesPerView: 4,
-                spaceBetween: 30
-            },
-            // when window width is >= 640px
-            1040: {
-                slidesPerView: 4,
-                spaceBetween: 40
-            },
-        }
-    });
-</script>
