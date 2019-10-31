@@ -299,7 +299,6 @@
                                     <a href="#" class="icon" title="User Profile">
                                         <img src="./images/14.jpg" width="525px;" height="532px;" style="position: relative;" class="img-responsive" alt="">
                                         <div class="overlay1"><h4>Quick View</h4></div>
-
                                     </a>  
                                     <div class="overlay2"><a href="#" class="icon2" title="User Profile"><i class="fa fa-gratipay" aria-hidden="true"></i></a>
                                     <div class="overlay3">
@@ -353,7 +352,6 @@
                                     <a href="#" class="icon" title="User Profile">
                                         <img src="./images/16.jpg" width="525px;" height="532px;" style="position: relative;" class="img-responsive" alt="">
                                         <div class="overlay1"><h4>Quick View</h4></div>
-
                                     </a>  
                                     <div class="overlay2"><a href="#" class="icon2" title="User Profile"><i class="fa fa-gratipay" aria-hidden="true"></i></a>
                                     <div class="overlay3">
@@ -363,7 +361,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="product-description">
                                 <div class="word">
@@ -375,7 +372,6 @@
                                             <h3>Union Sweater NLY Trend</h3>
                                         </a></div>
                                 </div>
-
                                 <div class="stars">
                                     <form action="star">
                                         <span class="fa fa-star checked"></span>
@@ -391,7 +387,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="btn">
                     <!-- If we need navigation buttons -->
@@ -399,36 +394,6 @@
                     <div class="swiper-button-next"></div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 50,
-        slidesPerView: 6,
-        slidesPerGroup: 2,
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window width is >= 480px
-            720: {
-                slidesPerView: 4,
-                spaceBetween: 30
-            },
-            // when window width is >= 640px
-            1040: {
-                slidesPerView: 4,
-                spaceBetween: 40
-            },
-        }
-    });
-</script>

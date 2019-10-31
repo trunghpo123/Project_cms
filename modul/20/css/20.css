@@ -18,6 +18,7 @@
 .type-20 .hello ul li a {
   text-transform: uppercase;
   text-decoration: none;
+  color: #000;
 }
 .type-20 .hello ul li:hover {
   border-right: 4px solid #0087b7;

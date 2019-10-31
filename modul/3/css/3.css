@@ -305,6 +305,7 @@
   transition: .5s ease;
   color: white;
   padding: 1px;
+  cursor: pointer;
   text-align: center;
 }
 .overlay3 a {
