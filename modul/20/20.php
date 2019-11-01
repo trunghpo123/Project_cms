@@ -18,7 +18,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width">
-      <title>module-6</title>
+      <title>module-20</title>
       <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
       <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="./css/bootstrap.min.css">
