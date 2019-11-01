@@ -45,7 +45,7 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span id="hd" class="fa fa-star checked"></span>
                                     </form>
                                 </div>
                                 <div class="product-price">
@@ -92,7 +92,7 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                        <span  class="fa fa-star checked"></span>
                                     </form>
                                 </div>
                                 <div class="product-price">
@@ -193,8 +193,8 @@
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star "></span>
-                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star checked "></span>
+                                        <span id="hd"  class="fa fa-star"></span>
                                     </form>
                                 </div>
                                 <div class="product-price">

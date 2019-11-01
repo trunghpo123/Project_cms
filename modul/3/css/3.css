@@ -21,6 +21,9 @@
   text-transform: uppercase;
   margin-bottom: 2%;
 }
+#hd {
+  color: #ebe2e2;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
