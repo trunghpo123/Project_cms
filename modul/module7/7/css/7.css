@@ -1,0 +1,100 @@
+.type-7 body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+.type-7 h1,
+.type-7 h2,
+.type-7 h3,
+.type-7 h4 {
+  margin-top: 0px;
+}
+.type-7 a {
+  color: unset;
+}
+.type-7 .wp-item0img {
+  position: relative;
+}
+.type-7 .wp-item0img .box-caption {
+  position: absolute;
+  bottom: 0px;
+  transform: translateY(100%);
+  transition: all 0.5s ease-in-out;
+  padding: 4px 10px;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+.type-7 .wp-item0img:hover .box-caption {
+  transform: translateY(0);
+}
+.type-7 .wp-title {
+  margin-top: 20px;
+}
+.type-7 .wp-title .title-box {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.type-7 .wp-title .title-box .h1-title {
+  margin: 0px;
+  line-height: 0;
+  position: relative;
+}
+.type-7 .wp-title .title-box .h1-title::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+.type-7 .wp-title .title-box .section-title-main {
+  padding: 10px 20px;
+  font-size: 22px;
+  border: 2px solid rgba(0,0,0,0.1);
+  color: #555;
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  z-index: 1;
+}
+.type-7 .wp-title .title-box .section-title-main i {
+  opacity: 0.6;
+  margin-right: 5px;
+}
+.type-7 #slider-img .owl-nav {
+  margin: 0px;
+}
+.type-7 #slider-img .owl-nav .owl-prev,
+.type-7 #slider-img .owl-nav .owl-next {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.type-7 #slider-img .owl-nav .owl-prev {
+  left: 10px;
+}
+.type-7 #slider-img .owl-nav .owl-next {
+  right: 10px;
+}
+.type-7 #slider-img:hover .owl-nav .owl-prev {
+  left: 15px;
+  opacity: 1;
+}
+.type-7 #slider-img:hover .owl-nav .owl-next {
+  right: 15px;
+  opacity: 1;
+}
+.type-7 #slider-img .owl-nav .owl-prev:hover,
+.type-7 #slider-img .owl-nav .owl-next:hover {
+  color: #0087b7;
+}

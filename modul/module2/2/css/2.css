@@ -1,0 +1,136 @@
+.type-2 body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+.type-2 h1,
+.type-2 h2,
+.type-2 h3,
+.type-2 h4 {
+  margin-top: 0px;
+}
+.type-2 a {
+  color: unset;
+}
+.type-2 .wp-banner-page .flex-b {
+  display: flex;
+}
+.type-2 .wp-banner-page .wp-banner-left,
+.type-2 .wp-banner-page .wp-banner-left .wp-img {
+  height: 100%;
+  position: relative;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-img {
+  box-shadow: 0 1px 3px -2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% 50%;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text {
+  position: absolute;
+  width: 50%;
+  left: 10%;
+  bottom: 10%;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .lead.alt-font {
+  margin-bottom: 15px;
+  font-family: 'Dancing Script', cursive;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .uppercase {
+  text-transform: uppercase;
+  font-size: 46px;
+  color: #555;
+  position: relative;
+  margin-bottom: 30px;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .uppercase::after {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background: rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .button {
+  padding: 0px 20px;
+  height: 32px;
+  line-height: 28px;
+  border: 2px solid #0087b7;
+  color: #0087b7;
+  background: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .button:not(:last-child) {
+  margin-right: 10px;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .button:nth-child(2),
+.type-2 .wp-banner-page .wp-banner-left .wp-text .button:hover {
+  background: #0087b7;
+  color: #fff;
+}
+.type-2 .wp-banner-page .wp-banner-left .wp-text .button:hover {
+  text-decoration: none;
+}
+.type-2 .wp-banner-page .row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.type-2 .wp-banner-page .row [class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.type-2 .wp-banner-page .wp-banner-right,
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-1,
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-2,
+.type-2 .wp-banner-page .wp-banner-right .wp-img {
+  height: 100%;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-img {
+  box-shadow: 0 1px 3px -2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.type-2 .wp-banner-page .wp-banner-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-1 {
+  margin-right: 20px;
+  position: relative;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-1 .wp-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 23px;
+  line-height: 1;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-1 .wp-text a:hover,
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-2 .wp-item .wp-text a:hover {
+  text-decoration: none;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-2 .wp-item {
+  position: relative;
+}
+.type-2 .wp-banner-page .wp-banner-right .wp-banner2-2 .wp-item .wp-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  transform: translate(-50%,-50%);
+  line-height: 1;
+}
