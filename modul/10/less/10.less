@@ -1,0 +1,160 @@
+li#hh:hover {
+  border-top: 2px solid blue;
+  color: #FFF;
+}
+a#hh:hover {
+  border-top: 2px solid blue;
+}
+a#border {
+  border-bottom: black solid 1px;
+  width: 190px;
+}
+a.dropdown-toggle {
+  color: #fff;
+  &:hover{
+    color: #FFF;
+  }
+}
+#fixNav{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  display: block;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+  font-size: 1.2em;
+}
+#fixNav ul{
+  margin: 0;
+  padding: 0;
+}
+.dropdownn a{
+color: #FFF;
+}
+#fixNav ul li{
+  list-style:none inside;
+  width: auto;
+  float: left;
+  line-height: 35px; /*Cho text canh giữa menu*/
+  color: #fff;
+  padding: 0;
+  margin-right:10px;
+  position: relative;
+ 
+}
+
+#border{
+color: #000;
+}
+#fixNav ul li a{
+  text-transform: uppercase;
+  white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+  padding: 0 10px;
+  display: block;
+
+  font-size: 14px;
+  text-decoration: none;
+}
+#fixNav ul li a ul .col-md-3 li a{
+  
+  color: rgb(156, 124, 124);
+  
+}
+
+
+/*CSS Style cho Submenu*/
+#fixNav ul li ul {
+  position: absolute;
+  color: #000;
+  display: none;
+   background-color: #fefdfd;;
+  width: 637px;
+  padding-left: 5px;
+  margin-top: 216px;
+  height: 409px;
+
+}
+.dropdown .col-md-4 img{
+  width: 194px;
+  height: 407px;
+}
+#fixNav ul li ul li{
+  display: block;
+  padding:0;
+  margin: 0;
+  float: none; /*Bỏ float cho li cấp thứ 2*/
+}
+/* Hover cho submenu */
+
+#fixNav ul li:hover ul{
+  /*Display ra submenu*/
+  display: block;
+}
+
+
+#fixNav ul  {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c3bbbb;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+#main {
+  display: none;
+  margin-top: -9px;
+  color: #FFF;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+@media only screen and (max-width: 1100px) {
+    #main {
+      display: block;
+  }
+#fixNav ul{
+  display: none;
+}
+
+}
+
+
+
+
