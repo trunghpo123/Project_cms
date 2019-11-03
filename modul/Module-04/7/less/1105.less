@@ -1,0 +1,117 @@
+.type-1105 {
+    .container{
+        margin: 0px auto;
+        padding: 0px 0px;
+       
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+     
+    .clearfix {
+        clear: both;
+        display: block;
+    }
+    *{
+        @box-sizing: border-box;
+        box-sizing: @box-sizing;
+    }
+    .section-title{
+        position: relative;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0px 15px;
+        width: 323px;
+        height: 48px
+    }
+    .section-title h3{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .section-title i{
+        margin-right: 13px;
+    }
+    .featured {
+        display: flex;
+    }
+    .lineleft{
+        width: 40%;
+        height: 2px;
+        display: inline-block;
+        background: grey;
+        margin-top: 23px;
+    }
+    .lineright{
+        width: 40%;
+        height: 2px;
+        display: inline-block;
+        background: grey;
+        margin-top: 23px;
+    }
+    .box-while .box-text{
+        position: absolute;
+        top: 63%;
+        border: 1px;
+        color: #000;
+        left: 15px;
+        background: #fff;
+        padding-right: 90px;
+        padding-left: 93px;
+        &:hover{
+            background: #0087b7;;
+            color: #fff;
+        }
+    }
+
+    .box-text p
+    {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    
+    .box-text h5{
+        text-transform: uppercase;
+    }
+    
+
+    /**.box-while .box-text {
+        background-color: rgba(255,255,255,0.95);
+        padding: .8em 1em 1em;
+        position: absolute;
+        bottom: 15%;
+        transition: background .3s;
+        z-index: 1;
+    }**/
+
+    .text-center
+    {
+        text-align: center;
+    }
+    
+    
+
+    .swiper-button-prev::after
+    {
+        content: '';
+        position: relative;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .swiper-button-next::after
+    {
+        content: '';
+        position: relative;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    
+}
