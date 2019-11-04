@@ -1,0 +1,119 @@
+.type-1105 .container {
+  width: 1050px;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.type-1105 .clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.type-1105 .clearfix {
+  clear: both;
+  display: block;
+}
+.type-1105 * {
+  box-sizing: border-box;
+}
+.type-1105 .section-title {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px 15px;
+  width: 323px;
+  height: 48px;
+}
+.type-1105 .section-title h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.type-1105 .section-title i {
+  margin-right: 13px;
+}
+.type-1105 .featured {
+  display: flex;
+}
+.type-1105 .lineleft {
+  width: 363px;
+  height: 2px;
+  display: inline-block;
+  background: grey;
+  margin-top: 23px;
+}
+.type-1105 .lineright {
+  width: 363px;
+  height: 2px;
+  display: inline-block;
+  background: grey;
+  margin-top: 23px;
+}
+.type-1105 .box-while .box-text {
+  position: absolute;
+  top: 63%;
+  border: 1px;
+  color: #000;
+  left: 15px;
+  background: #fff;
+  padding-right: 28.5%;
+  padding-left: 93px;
+}
+.type-1105 .box-while .box-text:hover {
+  background: #0087b7;
+  color: #fff;
+}
+.type-1105 .box-text p {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.type-1105 .box-text h5 {
+  text-transform: uppercase;
+}
+.type-1105 .text-center {
+  text-align: center;
+}
+.type-1105 .swiper-button-prev:hover {
+  left: -1px !important;
+  width: 18px;
+  top: 0px;
+  height: 100%;
+  box-shadow: 0 -150px 15px 0 rgba(0,0,0,0.3);
+  margin: 0 !important;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  transition: transform .3s, opacity .3s, background .3s, box-shadow .3s;
+  opacity: none;
+}
+.type-1105 .swiper-button-next:hover {
+  right: -1px !important;
+  width: 18px;
+  top: 0px;
+  height: 100%;
+  box-shadow: 0 -150px 15px 0 rgba(0,0,0,0.3);
+  margin: 0 !important;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  transition: transform .3s, opacity .3s, background .3s, box-shadow .3s;
+  opacity: none;
+}
+.type-1105 .swiper-button-prev::after {
+  content: '';
+  position: relative;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.type-1105 .swiper-button-next::after {
+  content: '';
+  position: relative;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
