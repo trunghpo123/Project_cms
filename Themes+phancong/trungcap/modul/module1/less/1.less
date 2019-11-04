@@ -1,0 +1,234 @@
+
+//muon thu nho menu thi class logo_container cho height 0,margin-bottom -46px 
+
+.type-module1{
+    margin-left: 100px;
+    margin-right: 100px;
+    .title1{
+        padding-top: 20px;
+        padding-bottom:20px;
+        .mkd-position-right-inner{
+            float: right;
+            a{
+                font-size: 10px;
+                color: #000;
+                text-decoration: none;
+                padding: 10px;
+            }
+            .aaa1 a::before{
+                content: "\f041";
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                padding-right: 5px;;
+            }
+            .aaa2 a::before{
+                content: "\f14e";
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                padding-right: 5px;
+            }
+            .aaa3 a::before{
+                content: "\f0f0";
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                padding-right: 5px;
+            } .aaa3 a::after{
+                color: blue !important;
+                content: "\f11e";
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                padding-left: 5px;
+            }
+
+            a:hover{
+                color:blue;
+            }
+        }
+        .mkd-position-left-inner{
+            float: left;
+            a{
+                font-size: 10px;
+                color: #000;
+                text-decoration: none;
+                padding-right: 10px;
+            }
+            a:hover{
+                color:blue;
+            }
+        }
+    }
+    .logo{
+        .sidepanel  {
+            display: none;
+            width: 0px;
+            position: fixed;
+            z-index: 1;
+            height: 250px;
+            top: 0;
+            right: 0;
+           
+            background-color:#fff;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+          }
+          
+          .sidepanel a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidepanel a:hover {
+            color: #f1f1f1;
+          }
+          
+          .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-size: 36px;
+          }
+          
+          .openbtn {
+            display: none;
+            font-size: 20px;
+            cursor: pointer;
+            
+            color: white;
+            padding: 10px 15px;
+            border: none;
+          }
+          
+          .openbtn:hover {
+            background-color:#444;
+          }
+        .logo-shop{
+            display: block;
+          margin-top: 20px;
+        }
+        border-top: 1px solid gray;
+        padding-top: 20px;
+        display: -webkit-box;
+        .form-seach{
+            position: relative;
+            margin-left: 110px;
+            input{
+                padding: 13px 72px 13px 350px;  
+                margin-top: 13px;
+
+            }
+            #flip{
+                z-index: 1;
+                position: absolute;
+                background:#e5e7f2;
+               padding: 12px 35px 12px 35px;
+               margin-top: 15px;
+            }
+            #panel{
+                display: none;
+                position: absolute;
+                width: 165px;
+                margin-top: 65px;
+                padding: 10px 35px 10px 54px;
+                text-align: center;
+                background:#e5e7f2;
+                border: solid 1px #c3c3c3;
+            }
+           .search-sp{
+            width: 50px;
+            height: 45px;
+            .search-submit{
+                background: blue;
+                margin-left: -5px;
+                padding: 3px 20px 10px 26px;
+               
+            }
+            .search-submit a::before{
+                content: "\f002";
+                font-family: 'FontAwesome';
+                font-size: 24px;
+                padding-right: 5px;
+                color: #fff;
+
+                
+            }
+           }
+           .wiget{
+             
+               display: inline-block;
+               .bbb1 a::before{
+                color: red;
+                content: "\f066";
+                font-family: 'FontAwesome';
+                font-size: 24px;
+                padding-left: 10px;
+               
+
+               }
+               .bbb2 a::before{
+                content: "\f004";
+                font-family: 'FontAwesome';
+                font-size: 24px;
+                padding-left: 10px;
+                color: red;
+                   
+
+               }
+               .bbb3 a::before{
+                content: "\f07a";
+                font-family: 'FontAwesome';
+                font-size: 24px;
+                padding-left: 10px;
+                color:red;
+                   
+
+               }
+           }
+           
+        }
+    }
+    
+    
+}
+@media only screen and (max-width: 1024px){
+    .type-module1 {
+       
+     
+      margin-left: 10px;
+    }
+    .type-module1 .title1 .mkd-position-left-inner a{
+        display: none;
+    }
+    .type-module1 .logo {
+        border: none;
+    }
+    .type-module1 .logo .form-seach #panel{
+        font-size: 8px;
+    }
+    .title1{
+        display: none;
+        
+    }
+    .form-seach{
+        display: none;
+    }
+  }
+  @media(min-width: 360px) and (max-width: 640px) {
+  
+    .type-module1 .logo .openbtn{
+        display: block;
+    }
+
+    .type-module1 .logo .logo-shop img{
+        width: 150px;
+    }
+    .type-module1 .logo .sidepanel{
+        display: block;
+       
+        
+    }
+  }
