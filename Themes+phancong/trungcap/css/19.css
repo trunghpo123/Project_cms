@@ -1,0 +1,36 @@
+.type-19 {
+  
+  height: 200px;
+  width: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50%;
+}
+.type-19 .Stores {
+  text-align: center;
+  margin-bottom: 27px;
+  margin-top: 38px;
+}
+.type-19 .word h3 {
+  color: #fff;
+  font-size: 3.2em;
+}
+.type-19 .icon a i {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 6px 8px;
+  color: #fff;
+}
+.type-19 .borders {
+  height: 3px;
+  background-color: #cbc4c4;
+  margin: 1em 0 1em;
+  width: 100%;
+  max-width: 30px;
+  display: block;
+  margin-left: 48%;
+}
+.type-19 .icon a i:hover {
+  background: #fff;
+  color: #1d0fec;
+}

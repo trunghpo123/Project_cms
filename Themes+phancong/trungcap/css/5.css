@@ -1,0 +1,176 @@
+.type-hinh5 .content {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 125%;
+}
+.wpcf7-form-control:hover{
+    background: #0087b7;
+} 
+.type-hinh5 .content .banner {
+  
+  background-repeat: no-repeat;
+  padding-top: 366px;
+  background-size: 100%;
+  filter: brightness(80%);
+  transform: translate3d(0px,-1.16px,0px);
+  backface-visibility: hidden;
+}
+.type-hinh5 .content .banner-layers {
+  max-height: 100%;
+  height: 100%;
+  position: absolute;
+  top: 20%;
+  left: -6.7%;
+}
+.type-hinh5 .content .banner-layers .text {
+  font-size: 100%;
+  z-index: 10;
+  backface-visibility: hidden;
+}
+.type-hinh5 .content .banner-layers .text .text-center {
+  text-align: center;
+}
+.type-hinh5 .content .banner-layers .text .text-center .uppercase {
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0;
+  font-weight: normal;
+  margin-top: .2em;
+  margin-bottom: .2em;
+  line-height: 1;
+  letter-spacing: .05em;
+}
+.type-hinh5 .content .banner-layers .text .text-center .uppercase strong {
+  font-weight: bolder;
+}
+.type-hinh5 .content .banner-layers .text .text-center p.lead {
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 {
+  color: #FFF;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.3em;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row {
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-grow {
+  flex: 1;
+}
+
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-grow .your-email {
+  display: block;
+  position: relative;
+  left: 2%x;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-grow .your-email input:not([type="submit"]) {
+  background-color: rgba(255,255,255,0.2) !important;
+  border-color: rgba(255,255,255,0.09);
+  color: currentColor !important;
+  border-radius: 99px;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-grow .your-email input[type='email'] {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 0 .75em;
+  height: 2.507em;
+  font-size: .97em;
+  max-width: 50%;
+  width: 40%;
+  vertical-align: middle;
+  transition: color .3s, border .3s, background .3s, opacity .3s;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-grow .your-email input {
+  margin-bottom: 0;
+  overflow: visible;
+  touch-action: manipulation;
+  font: inherit;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .flex-col {
+  max-height: 100%;
+  padding-right: 4px;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half {
+  position: relative;
+  right: 25%;
+  margin-left: 15px;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half .button:first-of-type {
+  margin-left: 0 !important;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit']:not(.is-form) {
+  background-color: #0087b7;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit'],
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit'].button,
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit'] {
+  border-color: rgba(0,0,0,0.05);
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half .button,
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit'],
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='reset'],
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='button'] {
+  color: #fff;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half .button {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input {
+  border-radius: 99px;
+}
+.type-hinh5 .content .banner-layers .text .text-center .wpcf7 .form-email .flex-row .ml-half input[type='submit'] {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .97em;
+  letter-spacing: .03em;
+  touch-action: none;
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  text-shadow: none;
+  line-height: 2.4em;
+  min-height: 2.5em;
+  padding: 0 1.2em;
+  max-width: 100%;
+  transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  -webkit-appearance: button;
+  overflow: visible;
+  font: inherit;
+}
+.type-hinh5 .content .banner-layers .dark {
+  color: #f1f1f1;
+}
