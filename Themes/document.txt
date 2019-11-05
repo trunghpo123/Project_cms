@@ -1,4 +1,4 @@
-Nếu gặp lỗi thì ở file .htaccess
+Nếu gặp lỗi khi cài đặt themes thì ở file .htaccess
 thêm 
 # END WordPress
 php_value upload_max_filesize 128M
